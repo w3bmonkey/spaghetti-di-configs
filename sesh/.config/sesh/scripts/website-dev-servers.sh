@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # Starts the website dev server and answers the interactive prompts of
-# `yarn start` (a `prompts` select; the repo can't be modified). Unlike
+# `bun start` (a `prompts` select; the repo can't be modified). Unlike
 # pannello, website asks TWO sequential selects: first "App", then
 # "Environment". We must answer each as it renders — pressing Enter on
 # "App" picks the first choice (web), which then triggers the

@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # Starts the pannello dev server and answers the interactive environment
-# prompt of `yarn start` (a `prompts` select; the repo can't be modified).
+# prompt of `bun start` (a `prompts` select; the repo can't be modified).
 # Waits until the prompt is rendered, then presses Enter to pick the first
 # choice: development. For another environment, send Down before Enter,
 # e.g. `tmux send-keys -t "$TMUX_PANE" Down Down Enter` for emulator.
